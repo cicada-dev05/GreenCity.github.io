@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Mention.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/61d5330db5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vfooter.css">
+    <link rel="stylesheet" href="vimggallery.css">
+    <link rel="stylesheet" href="vphotoslider.css">
+    <link rel="stylesheet" href="vimage_crousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="icon" href="Greencity.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Nunito:wght@300&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/72b40a5035.js" crossorigin="anonymous"></script>
+    <link rel=" stylesheet " href="vMenubar.css">
+    <link rel="stylesheet " href="landingPage.css">
+    <title>GReenCity</title>
+</head>
+
+<body>
+    <div class="siteLogo">
+        <a href="index.html">
+            <img src="Greencity.png" alt="Green City " width="140vw">
+        </a>
+    </div>
+
+
+    <div class="topnav" id="myTopnav">
+
+        <a href="index.html" class="active">Home</a>
+        <a href="#lservices">Service</a>
+
+        <a href="contactus.html">Contact</a>
+        <div class="dropdownbox">
+            <button class="dropbtn">States
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Arunachal.html">Arunachal Pradesh</a>
+                <a href="Assam.html">Assam</a>
+                <a href="Manipur.html">Manipur</a>
+                <a href="Meghalaya.html">Meghalaya</a >
+                    <a href="Mizoram.html">Mizoram</a >
+                    <a href="Nagaland.html">Nagaland</a >
+                    <a href="Sikkim.html">Sikkim</a >
+                    <a href="Tripura.html ">Tripura</a >
+            </div>
+        </div>
+        <a href="about.html">About</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+
+            <!-- js for navbar scroll -->
+
+
+            <!-- <div class="photoslider "> -->
+
+            <div class="img-slider ">
+                <div class="slide active ">
+                    <img src="https://media.istockphoto.com/photos/majuli-is-the-worlds-biggest-river-island-picture-id1339646234?b=1&k=20&m=1339646234&s=170667a&w=0&h=EoE4KaLcHa98_drlSsJicoPc84LjHGFQRUmoaeh3m7Y=" alt=" ">
+                    <div class="info ">
+                        <h2>Assam</h2>
+                        <p>World’s Largest River Island “Majuli” is located in Assam</p>
+                    </div>
+                </div>
+                <div class="slide ">
+                    <img src="https://thumbs.dreamstime.com/b/sculptures-carved-rock-archaeological-site-unakoti-state-tripura-india-unakoti-tripura-india-205362663.jpg" alt=" ">
+                    <div class="info ">
+                        <h2>Tripura</h2>
+                        <p>Unakoti is famous for images of various hindu dieties etched on it's rocks that date back around 7th-9th century</p>
+                    </div>
+                </div>
+                <div class="slide ">
+                    <img src="https://media.istockphoto.com/photos/living-root-bridge-handmade-from-the-aerial-roots-of-rubber-fig-trees-picture-id1208987966?b=1&k=20&m=1208987966&s=170667a&w=0&h=n-fKQZ0pI3QSiwxLAVdxUl0rUpeYYlenRQUW9tfyr5c=" alt=" ">
+                    <div class="info ">
+                        <h2>Meghalaya</h2>
+                        <p> The tree root bridges of Cherrapunjee are made up of roots of living trees that resemble a suspension bridge</p>
+                    </div>
+                </div>
+                <div class="slide ">
+                    <img src="https://2.bp.blogspot.com/-IHVoRbWQdhc/W38D3Kbwb9I/AAAAAAAAKZw/3AahywtqzDA4WmYC0lhNrLr_IKPzrq5iACLcBGAs/s1600/IMG-20180824-WA0024.jpg" alt=" ">
+                    <div class="info ">
+                        <h2>Mizoram</h2>
+                        <p>There are innumerable caves found in Mizoram like the Milu Puk also called the cave of skulls because a huge heap of human skeletons was found when the cave was discovered. </p>
+                    </div>
+                </div>
+                <div class="slide ">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Imphal_At_Dusk.jpg/1200px-Imphal_At_Dusk.jpg " width="10% " alt=" ">
+                    <div class="info ">
+                        <h2>Manipur</h2>
+                        <p>Legends say that the inhabitants of Manipur are originally Gandharvas –the celestial singers and dancers. Just like Kashmir, Manipur also has a reputation of being Gandharva-Desa.</p>
+                    </div>
+                </div>
+                <div class="navigation " style="opacity: 0;">
+                    <div class="btn active "></div>
+                    <div class="btn "></div>
+                    <div class="btn "></div>
+                    <div class="btn "></div>
+                    <div class="btn "></div>
+                </div>
+            </div>
+
+            <!-- </div>
+    </div> -->
+
+            <script type="text/javascript ">
+                var slides = document.querySelectorAll('.slide');
+                var btns = document.querySelectorAll('.btn');
+                let currentSlide = 1;
+
+                // Javascript for image slider manual navigation
+                var manualNav = function(manual) {
+                    slides.forEach((slide) => {
+                        slide.classList.remove('active');
+
+                        btns.forEach((btn) => {
+                            btn.classList.remove('active');
+                        });
+                    });
+
+                    slides[manual].classList.add('active');
+                    btns[manual].classList.add('active');
+                }
+
+                btns.forEach((btn, i) => {
+                    btn.addEventListener("click ", () => {
+                        manualNav(i);
+                        currentSlide = i;
+                    });
+                });
+
+                // Javascript for image slider autoplay navigation
+                var repeat = function(activeClass) {
+                    let active = document.getElementsByClassName('active');
+                    let i = 1;
+
+                    var repeater = () => {
+                        setTimeout(function() {
+                            [...active].forEach((activeSlide) => {
+                                activeSlide.classList.remove('active');
+                            });
+
+                            slides[i].classList.add('active');
+                            btns[i].classList.add('active');
+                            i++;
+
+                            if (slides.length == i) {
+                                i = 0;
+                            }
+                            if (i >= slides.length) {
+                                return;
+                            }
+                            repeater();
+                        }, 20000);
+                    }
+                    repeater();
+                }
+                repeat();
+            </script>
+
+
+
+
+            <div class="northeasternpara ">
+                <h2>North Eastern India</h2>
+                <span></span>
+                <p>North-East India is one of the most fascinating places of India and of the world, located at the northeastern region of India, and consisting of 7 states, called collectively as 'the seven sisters'. Much of the region has been left unexplored
+                    till date, owning to the regions formidable terrain consisting of mountains, hills, rainforests, river, jungles and predators, and deficiency of infrastructure. The small sized region has one of the highest biodiversity density found
+                    anywhere in the world.</p>
+            </div>
+
+            <!--  -->
+
+
+            <div class="wrapperbgcolor">
+
+
+                <div class="wrapper" id="lservices">
+                    <h2>
+                        Services</h2>
+                    <div class="line">
+                    </div>
+
+                    <a href="contactus.html">
+                        <div class="single-service">
+                            <div class="social">
+                                <i class="fas fa-taxi"></i></div>
+                            <span></span>
+                            <h3>
+                                Tourist Cabs</h3>
+                            <p>
+                                Cab Booking for all over North-East is avaialable at a very affordable price . Click on the tab to contact for booking</p>
+                        </div>
+                    </a>
+
+                    <a href="contactus.html">
+                        <div class="single-service">
+                            <div class="social">
+                                <i class="fas fa-train"></i></div>
+                            <span></span>
+                            <h3>
+                                Railway Booking</h3>
+                            <p>
+                                For Smooth railway travelling experience click on the tab and book yourself a seat </p>
+                        </div>
+                    </a>
+
+                    <a href="contactus.html">
+                        <div class="single-service">
+                            <div class="social">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <span></span>
+                            <h3>
+                                Flight Booking</h3>
+                            <p>
+                                For Smooth Air travelling experience click on the tab and book yourself a seat</p>
+                        </div>
+                    </a>
+
+                    <a href="contactus.html">
+                        <div class="single-service">
+                            <div class="social">
+                                <i class="fas fa-hotel"></i></div>
+                            <span></span>
+                            <h3>
+                                Hotel Booking</h3>
+                            <p>
+                                Green City Provides you with one of the best hostel booking facilities all over North-East at very reasonable price.<br> Click on the tab to book now
+                            </p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="clickcontactus">
+                    <a href="contactus.html">
+                        <h2>
+                            Click to Avail Service..
+                        </h2>
+                    </a>
+                </div>
+                <div class="contactspan">
+                    <span></span>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="popularineastern ">
+                <h2>Popular in North Eastern</h2>
+                <span id="span "></span>
+                <p>North East home to various cultural and tribal diversties of India with a strong essense of lush-green enivroment.</p>
+
+            </div>
+
+            <!--gridimage card layout start-->
+            <div class="grid_imcont ">
+                <!--gridimage gridrow start-->
+                <div class="gridrow ">
+                    <!--gridimage card start-->
+                    <a href="Assam.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Guwahati-Assam.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head " style=" font-weight: bold; ">Guwahati, Assam
+                                </h2>
+                                <p class="gr_p ">Guwahati is the gateway to the Northeast, besides being one of the largest cities of this region. There are several opportunities for sightseeing in this city. </p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Oct-Apr</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                    <!--gridimage card start-->
+                    <a href="Assam.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Kaziranga-National-Park-As.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Kaziranga National Park, Assam</h2>
+                                <p class="gr_p ">Kaziranga National Park in Assam, a UNESCO World Heritage Site, is renowned for being home to the one-horned rhino. It’s also one of the most amazing holiday destinations in Northeast India.</p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Nov-Apr</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                    <!--gridimage card start-->
+                    <a href="Assam.html ">
+                        <div class="gridimage " style="text-decoration: none; ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Majuli-Assam.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Majuli, Assam</h2>
+                                <p class="gr_p ">Majuli is a river island in Assam that can only be accessed through a ferry ride from Jorhat. Majuli is special for so many reasons, with one of them being that it is the first district island in the country. </p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Oct-Feb</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                </div>
+                <!--gridimage gridrow end-->
+                <!--gridimage gridrow start-->
+                <div class="gridrow ">
+                    <!--gridimage card start-->
+                    <a href="Mizoram.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Aizwal-Mizoram.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Aizwal, Mizoram</h2>
+                                <p class="gr_p ">Aizwal, the capital of Mizoram and an immensely beautiful hill city, provides the best sightseeing opportunities. You will find solitude and tranquility in abundance here.</p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Mar-Jul</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                    <!--gridimage card start-->
+                    <a href="Meghalaya.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Shillong-Meghalaya.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Shillong, Meghalaya</h2>
+                                <p class="gr_p ">Surrounded by hills and the ever present fog resting comfortably on them, Shillong appears like the perfect getaway for a dreamy vacation. </p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Mar-May</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                    <!--gridimage card start-->
+                    <a href="Meghalaya.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Mawsynram-Meghalaya.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Mawsynram, Meghalaya</h2>
+                                <p class="gr_p ">Mawsynram, located about 56km from Shillong, is a tiny village in the Khasi village of Meghalaya. It is famous for being the wettest place on earth, along with Cherrapunji. </p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Sep-Nov</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                </div>
+                <!--gridimage gridrow end-->
+                <div class="gridrow ">
+                    <!--gridimage card start-->
+                    <a href="Meghalaya.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Sivasagar-Assam.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Sivasagar, Assam</h2>
+                                <p class="gr_p ">You will enjoy your visit to Sivasagar especially if you are a history enthusiast. It is home to several places of immense historical importance.</p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Oct-Feb</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                    <!--gridimage card start-->
+                    <a href="Assam.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Manas-Tiger-Reserve.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Manas Tiger Reserve</h2>
+                                <p class="gr_p ">It is most famous for its enormous population of tigers. Alongside, this tiger reserve also boasts the largest population of Bengal Florican in the world, besides being an incredible place to watch the Great Hornbill.
+                                </p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Oct-May</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                    <!--gridimage card start-->
+                    <a href="Arunachal.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Tawang-Arunachal-Pradesh.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Tawang,Arurnachal Pradesh</h2>
+                                <p class="gr_p ">The smallest district of Arunachal Pradesh, its home to several attractions including Tawang Monastery, Nuranang Waterfalls, Taktsang Gompa, Pankang Teng Tso Lake and Jaswant Garh, besides others. </p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit:Mar-Jun / Sep-Oct</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                </div>
+
+                <div class="gridrow ">
+                    <!--gridimage card start-->
+                    <a href="Arunachal.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Bomdila-Arunachal-Pradesh.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Bomdila Arunachal Pradesh</h2>
+                                <p class="gr_p ">Bomdila is one of the most incredible destinations of Arunachal Pradesh because of its lush landscape combined with a rich culture and heritage.</p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Apr-Oct</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                    <!--gridimage card start-->
+                    <a href="Sikkim.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Pelling-Sikkim.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Pelling, Sikkim</h2>
+                                <p class="gr_p ">Pelling is one of the most popular tourist attractions in the Northeast because it offers breathtaking views of the Khangchendzonga and surrounding ranges. </p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit: Feb-May / Sep or Dec</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                    <!--gridimage card start-->
+                    <a href="Meghalaya.html " style="text-decoration: none; ">
+                        <div class="gridimage ">
+                            <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2018/06/Mawsynram-Meghalaya.jpg " alt=" " class="slid_img ">
+                            <div class="grid_details ">
+                                <h2 class="gr_head ">Mawsynram, Meghalaya</h2>
+                                <p class="gr_p ">Mawsynram, located about 56km from Shillong, is a tiny village in the Khasi village of Meghalaya. It is famous for being the wettest place on earth, along with Cherrapunji.</p>
+                                <div class="gr_more ">
+                                    <a href="# " class="read-gr_more ">Best time to visit:Sep-Nov</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!--gridimage card end-->
+                </div>
+                <span id="servicejump "></span>
+            </div>
+            <!--gridimage card layout end-->
+
+
+
+
+            <div class="spandiv ">
+                <span></span>
+            </div>
+
+
+            <div class="populartrip " id="contactnow ">
+                <h1>Popular Trips</h1>
+                <h2>Explore the best of North Eastern</h2>
+                <h2>Get in touch now</h2>
+                <div class="tripbutton ">
+                    <a href="contactus.html ">Contact Us</a>
+                </div>
+            </div>
+
+
+            <!-- footer -->
+            <footer>
+                <div class="footer ">
+                    <div class="rowfooter ">
+                        <div class="colfooter ">
+                            <img src="Greencity.png " alt=" " class="flogo " width=250vw>
+                            <p>
+                                "Once a year, go someplace you 've never been before with us!."
+                            </p>
+                        </div>
+                        <div class="colfooter ">
+                            <h3>Office
+                                <div class="underline "><span></span></div>
+
+                                <div class="subcolfooter">
+                                    <p>Nongminsong</p>
+                                    <p>Shillong</p>
+                                    <p>Meghalaya</p>
+                                    <p class="email-id ">greencity@gmail.com </p>
+                                    <p>
+                                        No: 9856365797 / 9856754844
+                                    </p>
+                                </div>
+                        </div>
+                        <div class="colfooter ">
+                            <h3>Links
+                                <div class="underline "><span></span></div>
+
+                                <div class="colfooter">
+                                    <div class="subcolfooter">
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="#lservices">Services</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="contactus.html">Contact</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="colfooter ">
+                            <h3>Newsletter
+                                <div class="underline "><span></span></div>
+                                <div class="subcolfooter">
+
+                                    <form action=" ">
+                                        <i class="fas fa-envelope "></i>
+                                        <input type="email " placeholder=" Type your email here " style="color: white; " required>
+                                        <button type='Submit '><i class="fas fa-arrow-right "></i></button>
+                                    </form>
+                                </div>
+                                <div class="social-icons1 ">
+                                    <i class="fab fa-facebook "></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-whatsapp "></i>
+                                    <i class="fab fa-pinterest "></i>
+                                    <i class="fab fa-instagram "></i>
+                                </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copyright ">Aspiring Developers &copy; 2021-All rights reserved</p>
+                </div>
+            </footer>
+</body>
+
+</html>
+</div>
+</div>
+</div>
+<hr>
+
+</div>
+</footer>
+</body>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
+
+</html>

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+.gr_head,
+.gr_span {
+    /* color: rgb(56, 37, 37); */
+    display: flex;
+    justify-content: center;
+    /* font-size: 2rem; */
+}
+
+.gr_head {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.grid_imcont {
+    margin: 30px;
+}
+
+.grid_imcont h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 9rem;
+}
+
+.gridrow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gridimage {
+    background: #fff;
+    position: relative;
+    flex: 1;
+    max-width: 460px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.gridimage img {
+    /* opacity: 0.7; */
+    filter: brightness(80%);
+    position: relative;
+    vertical-align: top;
+    transition: 0.6s;
+    transition-property: opacity;
+    object-fit: contain;
+}
+
+.gridimage:hover img {
+    opacity: 1;
+    object-fit: contain;
+    filter: brightness(50%);
+}
+
+.gridimage .grid_details {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.gridimage:hover .gr_head {
+    background: rgb(32, 20, 20);
+    padding: 10px;
+    font-weight: bold;
+    transition: 1s;
+    color: white;
+}
+
+.gridimage:hover .gr_p {
+    color: rgba(255, 255, 255, 0.651);
+    font-weight: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gridimage .grid_details .gr_head,
+.gr_head h3 {
+    text-align: center;
+    /* font-size: 35px; */
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 40px;
+    transition: 0.4s;
+    transition-property: transform;
+}
+
+
+/* .gridimage .grid_details .gr_head .gr_span,
+.gr_head h2 h3 {
+    font-weight: 900;
+} */
+
+.gridimage:hover .grid_details .gr_head,
+.gr_head h2 h3 {
+    transform: translateY(-35px);
+}
+
+.gridimage .grid_details .gr_p {
+    margin: 30px 30px 0 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    transition: 0.6s;
+    transition-property: opacity, transform;
+}
+
+.gridimage:hover .grid_details .gr_p {
+    opacity: 1;
+    transform: translateY(-35px);
+}
+
+.gr_more {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    /* left: 5%; */
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    bottom: -65px;
+    transition: 0.6s;
+    transition-property: bottom;
+}
+
+.gridimage:hover .gr_more {
+    bottom: 0px;
+}
+
+.gr_more .read-gr_more {
+    color: #000;
+    text-decoration: none;
+    /* font-size: 20px; */
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.gr_more .read-gr_more .gr_span {
+    font-weight: 900;
+}
+
+.gr_more a {
+    font-size: 1.5vw;
+    /* font-size: 1.5px; */
+}
+
+
+/* Responsive CSS */
+
+@media (max-width: 1080px) {
+    .gridimage {
+        flex: 100%;
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 400px) {
+    .gridimage .grid_details .gr_p {
+        font-size: 16px;
+    }
+    .gr_more .read-gr_more,
+    .gr_more .icon-links a i {
+        font-size: 18px;
+    }
+}
+
+.grid_span {
+    margin: 15rem 0;
+}

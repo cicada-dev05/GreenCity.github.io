@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    color: #cecece;
+    background: #4f5157;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    /* margin: 0px 20px; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header>.logo>img {
+    padding: 3px 20px;
+    border-radius: 0px 300px 100px;
+    box-shadow: 4px 4px 10px rgba(8, 4, 4, 0.205);
+}
+
+.homebutton>button {
+    border: 0px;
+    font-weight: bold;
+    position: absolute;
+    top: 14%;
+    left: 4%;
+    float: right;
+    color: #50113e;
+    background: #6475638f;
+    /* margin-bottom: 10px; */
+    padding: 15px 30px;
+    font-size: 15px;
+    /* font-weight: 500; */
+}
+
+.homebutton>button:hover {
+    color: rgb(179, 182, 25);
+    font-weight: bold;
+    transform: scale(1.1);
+    background-color: rgba(41, 119, 21, 0.842);
+    transition: 0.3s;
+    border-radius: 2%;
+    box-shadow: 2px 4px 6px 1px rgba(0, 0, 0, 0.507);
+}
+
+.contactpannel {
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.151);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* position: relative; */
+    flex-wrap: wrap;
+    /* left: 5%; */
+    /* margin: 2vw 8vw; */
+    padding: 2vw;
+    background: #4f5157;
+}
+
+.contactpannel>.infoandpromotion {
+    width: 50%;
+    position: relative;
+    /* left: ; */
+    /* background-color: rgba(211, 211, 211, 0.486); */
+    padding: 1vw 0px 20vw 3vw;
+    border-radius: 5px;
+}
+
+.contactpannel>.infoandpromotion h2 {
+    font-size: 2.3rem;
+    color: #dd4444;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px 3px #1a0f0f;
+}
+
+.contactpannel>.infoandpromotion>.textarea {
+    /* width: 80%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0;
+}
+
+.contactpannel>.infoandpromotion>.textslider>p {
+    /* width: 90%; */
+    position: absolute;
+    /* margin-bottom: 50vw; */
+    /* font-size: 3rem; */
+    margin-left: 7%;
+}
+
+.contactpannel>.contactdetails {
+    padding: 7.1%;
+    position: relative;
+    /* left: 10%; */
+    background-color: #E27D60;
+}
+
+.contactdetails h2 {
+    font-size: 2rem;
+    color: #64485C;
+    text-shadow: 2px 1px 3px #1a0f0f;
+}
+
+.contactdetails h3,
+h4 {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.contactdetails a {
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: #3a371c;
+    margin: 1vw;
+    padding: 1vw;
+    /* position: ; */
+}
+
+.contactdetails h3 {
+    color: #1a0f0fb4;
+}
+
+.contactdetails h4 {
+    color: #666126;
+    position: relative;
+    font-family: cursive;
+    left: 12 px;
+}
+
+.contactdetails a:hover i {
+    transform: scale(1.5);
+    height: 25px;
+    width: 25px;
+    color: rgb(24, 109, 158);
+    box-shadow: 0px 1px rgb(24, 109, 158);
+    border-radius: 50%;
+}

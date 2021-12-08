@@ -1,0 +1,106 @@
+{
+     // Use IntelliSense to learn about possible attributes.
+     // Hover to view descriptions of existing attributes.
+     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+     "version": "0.2.0",
+     "configurations": [
+          {
+               "type": "java",
+               "name": "Launch PersonEmployeeInheritance",
+               "request": "launch",
+               "mainClass": "PersonEmployeeInheritance",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch MaxDifference",
+               "request": "launch",
+               "mainClass": "MaxDifference",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch Synchronization",
+               "request": "launch",
+               "mainClass": "Synchronization",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch Main",
+               "request": "launch",
+               "mainClass": "Main",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch StudentAge",
+               "request": "launch",
+               "mainClass": "StudentAge",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch Program",
+               "request": "launch",
+               "mainClass": "Program",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch Bank",
+               "request": "launch",
+               "mainClass": "Bank",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch TelephoneQues",
+               "request": "launch",
+               "mainClass": "TelephoneQues",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch ExceptionHandling",
+               "request": "launch",
+               "mainClass": "ExceptionHandling",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch StringSum",
+               "request": "launch",
+               "mainClass": "StringSum",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "type": "java",
+               "name": "Launch SpecialEleven",
+               "request": "launch",
+               "mainClass": "SpecialEleven",
+               "projectName": "PROJECT_1(GREEN CITY)_287bc1b8"
+          },
+          {
+               "name": "g++.exe - Build and debug active file",
+               "type": "cppdbg",
+               "request": "launch",
+               "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+               "args": [],
+               "stopAtEntry": false,
+               "cwd": "${fileDirname}",
+               "environment": [],
+               "externalConsole": false,
+               "MIMode": "gdb",
+               "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+               "setupCommands": [
+                    {
+                         "description": "Enable pretty-printing for gdb",
+                         "text": "-enable-pretty-printing",
+                         "ignoreFailures": true
+                    }
+               ],
+               "preLaunchTask": "C/C++: g++.exe build active file"
+          }
+     ]
+}

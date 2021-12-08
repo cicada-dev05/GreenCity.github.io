@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1D;
+    overflow: hidden;
+}
+
+.logo {
+    background-color: #fff;
+    /* height: 6vw; */
+}
+
+.logo button {
+    background: linear-gradient(to right, #ac61d8, #0023eb);
+    border-radius: 5px;
+    color: rgb(11, 219, 63);
+    font-size: 1.5vw;
+    float: right;
+    position: relative;
+    margin-top: 2vw;
+    margin-right: 5vw;
+    padding: 0.8vw 1.1vw;
+}
+
+.logo button i,
+a {
+    /* background-color: rgb(3, 48, 105); */
+    position: relative;
+    background: linear-gradient(to right, #ac61d8, #0023eb);
+    /* top: -10%; */
+    /* margin-top: 2px; */
+    color: rgba(231, 231, 231, 0.842);
+    /* background: #0023eb00); */
+    font-size: 1.5vw;
+    /* background-color: #fff; */
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo>button:hover {
+    transform: scale(1.1);
+}
+
+.logo button:hover i,
+.logo button:hover a {
+    color: #fff;
+    /* opacity: 0.9; */
+}
+
+
+/* .logo>button:hover i {
+    transform: scale(1.2);
+} */
+
+.logo img {
+    background-color: #fff;
+    width: 15%;
+    position: relative;
+    top: 0%;
+}
+
+.about {
+    display: flex;
+    margin: 5vw 5vw;
+}
+
+.about>.aimage>img {
+    width: 20vw;
+    right: 10%;
+    position: absolute;
+    top: 14.5%;
+    box-shadow: 2px 2px 10px rgb(49, 49, 49);
+    border-bottom-right-radius: 60px;
+    border: 1px solid rgba(139, 69, 19, 0.562);
+    /* background-color: saddlebrown; */
+}
+
+.about>.detail>.cphil {
+    font-size: 3.3vw;
+    color: brown;
+    text-shadow: 1px 1px 2px brown;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about>.detail>.adescription {
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0;
+}
+
+.about .cphil1 {
+    font-size: 2.1vw;
+    opacity: 0.7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #950740;
+}
+
+.about p {
+    font-size: 1.2vw;
+    color: #646464;
+    font-weight: 400;
+    word-spacing: 5px;
+    word-break: break-all;
+}
+
+.about .adescription {
+    font-size: 1.2vw;
+    color: #646464;
+    /* width: 20%; */
+    font-weight: 400;
+    word-spacing: 5px;
+    /* word-break: break-all; */
+}
